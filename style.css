@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background: url("https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat center;
+  background-size: cover;
+}
+
+#recipeSearch {
+  max-width: 1100px;
+  width: 100%;
+  background-color: rgba(90, 255, 153, 0.3294117647);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  border-radius: 8px;
+  gap: 20px;
+}
+#recipeSearch .img_logo {
+  width: 200px;
+  height: 100px;
+}
+#recipeSearch .img_logo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#recipeSearch h2 {
+  margin-top: -40px;
+  color: #99ff15;
+  font-size: 40px;
+  font-family: cursive;
+}
+#recipeSearch label {
+  display: block;
+}
+#recipeSearch input {
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+#recipeSearch button {
+  background-color: #4caf4f;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+#recipeSearch button:hover {
+  background-color: #45a049;
+}
+#recipeSearch #results {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+#recipeSearch #results #recipe-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(69, 160, 73, 0.351) 9;
+  gap: 10px;
+}
+#recipeSearch #results #recipe-card a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */

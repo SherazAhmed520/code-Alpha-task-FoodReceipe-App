@@ -45,6 +45,7 @@ body {
 }
 #recipeSearch label {
   display: block;
+  font-weight: bold;
 }
 #recipeSearch input {
   width: 50%;
